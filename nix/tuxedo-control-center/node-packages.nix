@@ -8564,13 +8564,13 @@ let
         sha512 = "tPrhHSS2DfVyipXQ0gykOPc8zFNnj2b7sAebUVty392vHnEGYCwsP6YbFfpr1iXu4yBSRm4Gt5lffR5w0uyYSw==";
       };
     };
-    "ngx-color-picker-10.1.0" = {
+    "ngx-color-picker-11.0.0" = {
       name = "ngx-color-picker";
       packageName = "ngx-color-picker";
-      version = "10.1.0";
+      version = "11.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ngx-color-picker/-/ngx-color-picker-10.1.0.tgz";
-        sha512 = "Q3BILkQP+l+dcX0joe7+xuHDKydhGnG09sUG1FmlLZFYIEX4+AQqHULh+hUAci8kZlLZuOG+mB2Uq54QYadItw==";
+        url = "https://registry.npmjs.org/ngx-color-picker/-/ngx-color-picker-11.0.0.tgz";
+        sha512 = "HyiFNPYLrCyYbFpLvZJaHC43RhjfDdFDij4pnvk9R46iH1scVtO6f2ibBgxRwBKKsT94KYvOH8wF8OrvztWdEw==";
       };
     };
     "ngx-electron-2.2.0" = {
@@ -13402,8 +13402,8 @@ let
   args = {
     name = "tuxedo-control-center";
     packageName = "tuxedo-control-center";
-    version = "2.0.7";
-    src = ../../../../../../../../run/user/1000/tmp.CJzOrm7xyz;
+    version = "2.0.11";
+    src = ../../../../../../run/user/1000/tmp.sHHZq8SXyb;
     dependencies = [
       sources."7zip-bin-5.0.3"
       (sources."@angular-devkit/architect-0.1002.4" // {
@@ -14825,7 +14825,7 @@ let
       sources."neo-async-2.6.2"
       sources."next-tick-1.1.0"
       sources."ng2-charts-2.4.3"
-      sources."ngx-color-picker-10.1.0"
+      sources."ngx-color-picker-11.0.0"
       (sources."ngx-electron-2.2.0" // {
         dependencies = [
           sources."tslib-1.14.1"

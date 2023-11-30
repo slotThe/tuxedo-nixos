@@ -7,10 +7,10 @@ let
   ## Update Instructions
   #
   # see ./README.md
-  version = "2.0.7";
+  version = "2.0.11";
 
   # keep in sync with update.sh!
-  # otherwise the format of package.json does not mach the format used by the 
+  # otherwise the format of package.json does not mach the format used by the
   # version used by nixpkgs, leading to errors such as:
   #   > npm ERR! code ENOTCACHED
   #   > npm ERR! request to https://registry.npmjs.org/node-ble failed: cache mode is 'only-if-cached' but no cached response is available.
@@ -26,7 +26,7 @@ let
       owner = "tuxedocomputers";
       repo = "tuxedo-control-center";
       rev = "v${version}";
-      sha256 = "GSG8pf+mBt+lEDt667gyUa1rYyto6MRRsHj/fl1ef8Y=";
+      sha256 = "TWO2MQuoIQZI/xhPUlsMPXxLmTyaQS5a1/Jz/oOqPsg=";
     };
 
     preRebuild = ''
